@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=x, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/figuras.css">
+    <!-- LINKS PARA LAS FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Quicksand:wght@300;500;700&family=Roboto:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <title>Figuras geometricas.</title>
+</head>
+<body>
+
+    <header>
+        <div class="encabezado">
+            <h1 class="titulo">
+                Figuras geométricas
+            </h1>
+         <img src="../img/Group.svg" alt="">    
+        </div>
+    </header>
+    <!--
+          <section class="figura-cuadrado">
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+    
+        <div class="contenedor">
+            <form class="form-operaciones">
+            
+                <label for="InputCuadrado">
+                  Escribe cuánto mide cada lado de tu cuadrado:
+                </label>
+                
+                <input id="InputCuadrado" type="number" />
+             
+        <div class="btn">               
+              <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el perímetro
+            </button>
+              
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el área
+            </button>
+        </div>
+              
+          </form>
+        </div>
+    
+      </section>
+    -->
+  
+    <!-- 
+    <section class="figura-cuadrado">
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+    
+        <div class="contenedor">
+            <form class="form-operaciones">
+            
+                <label for="InputCuadrado">
+                  Escribe cuánto mide cada lado de tu cuadrado:
+                </label>
+                
+                <input id="InputCuadrado" type="number" />
+                
+              <button class="btn-calcular-perimetro" type="button" onclick="calcularPerimetroCuadrado()">
+                  Calcular el perímetro
+              </button>
+                
+              <button type="button" onclick="calcularAreaCuadrado()">
+                  Calcular el área
+              </button>
+              
+          </form>
+        </div>
+    
+      </section>
+
+    -->
+    <section>
+        <div class="contenedor-principal">
+            <div class="contenedor-cartas">
+                <h2>Calculadora de cuadrado</h2>
+                <form class="form-operaciones">
+                
+                    <label for="InputCuadrado" class="label">
+                      Escribe cuánto mide cada lado de tu cuadrado:
+                    </label>
+                    
+                    <input id="InputCuadrado" type="number" placeholder="lado" />
+                 
+            <div class="btn">               
+                  <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+                  
+                <button class="btn-area" type="button" onclick="calcularAreaCuadrado()">
+                    Calcular el área
+                </button>
+            </div>
+                  
+              </form>
+            </div>
+    
+            <div class="contenedor-cartas">
+                <h2>Calculadora de Circulo</h2>
+                <form class="form-operaciones">
+                
+                    <label for="InputCirculo" class="label">
+                      Escribe cuánto mide cada lado de tu circulo:
+                    </label>
+                    
+                    <input id="InputCirculo" type="number" placeholder="radio" />
+                 
+            <div class="btn btn-auto">               
+                  <button type="button" onclick="calcularPrimeroCirculo()">
+                    Calcular el perímetro
+          </button>
+                  
+                <button class="btn-area" type="button" onclick="calcularAreaCirculo()">
+                    Calcular el área
+                </button>
+                <button class="btn-area" type="button" onclick="calcularDiametroCirculo()">
+                  Calcular el diametro.
+              </button>
+
+            </div>
+                  
+              </form>
+            </div>
+        
+        </div>
+        
+
+    </section>
+   
+
+
+
+    
+    <script src="../js/figuras.js"></script>
+</body>
+</html>
